@@ -18,20 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pycalc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="75" column="66" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="66" />
-              <folding>
-                <element signature="e#21#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="154">
+              <caret line="311" column="6" selection-start-line="311" selection-start-column="6" selection-end-line="311" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -62,11 +50,9 @@
       <find>print</find>
       <find>except TypeError</find>
       <find>try</find>
-      <find />
       <find>enu</find>
       <find>ss</find>
       <find>skob</find>
-      <find>ss</find>
     </findStrings>
     <replaceStrings>
       <replace>pycalc.main</replace>
@@ -230,23 +216,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mytest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest.py" />
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2464">
-          <caret line="178" column="19" selection-start-line="178" selection-start-column="19" selection-end-line="178" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py" />
     <entry file="file://$PROJECT_DIR$/func.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -254,20 +228,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp.py" />
     <entry file="file://$PROJECT_DIR$/pycalc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="75" column="66" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="66" />
-          <folding>
-            <element signature="e#21#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="311" column="6" selection-start-line="311" selection-start-column="6" selection-end-line="311" selection-end-column="6" />
         </state>
       </provider>
     </entry>
