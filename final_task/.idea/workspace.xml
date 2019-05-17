@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9566462-b710-411f-b787-a8adb7e9c203" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/pycalc.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycalc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pycalc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="311" column="6" selection-start-line="311" selection-start-column="6" selection-end-line="311" selection-end-column="6" />
+            <state relative-caret-position="280">
+              <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -231,8 +232,8 @@
     <entry file="file://$PROJECT_DIR$/tmp.py" />
     <entry file="file://$PROJECT_DIR$/pycalc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="311" column="6" selection-start-line="311" selection-start-column="6" selection-end-line="311" selection-end-column="6" />
+        <state relative-caret-position="280">
+          <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" selection-end-column="26" />
         </state>
       </provider>
     </entry>

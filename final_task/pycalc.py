@@ -11,9 +11,7 @@ from math import *
 split = ('^', '/', '*', '%', '-', '+', '=', '<', '>', '!',  '(', ')', ',')
 splitset = set(split)
 funclist = dir(math)+['abs', 'round', 'sum']  # list of math functions names
-funcdic = math.__dict__  # dict of math functions
-#funcdic = [getattr(math, attr) for attr in dir(math) if callable(getattr(math, attr))]
-#dict([(attr, getattr(math, attr)) for attr in dir(math) if callable(getattr(math, attr))])
+funcdic = dict([(attr, getattr(math, attr)) for attr in dir(math) if callable(getattr(math, attr))])
 funcset = set(funclist)
 operdic = {
         '+': add,
