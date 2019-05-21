@@ -184,7 +184,7 @@ def afterparse(xprlst):
                                                                or xprlst[i + 1] == '-'
                                                                or xprlst[i + 1] == '('):
             xprlst[i] = -1
-            xprlst = xprlst[:i + 1]+ ['*'] + xprlst[i + 1:]
+            xprlst = xprlst[:i + 1] + ['*'] + xprlst[i + 1:]
         i = i + 1
     if xprlst[0] == '-':
         xprlst[0] = -1
@@ -275,7 +275,7 @@ def postfix(xprlst):
 def operate(operator, args):
     """ выполняет математическое действие или функцию (operator) со списком аргументов (args) """
     global stack  # используется в функции evalpostfix
-    ## print('OPERATE', operator, 'ARGS', args, 'STACK', stack)
+    # print('OPERATE', operator, 'ARGS', args, 'STACK', stack)
     try:
         result = funcdic[operator](*args)  # если функция с одним или двумя аргументами типа sin(x), pow(x,y)
         stack.pop()
@@ -295,7 +295,7 @@ def operate(operator, args):
                     raise ValueError('ERROR: invalid argument for ', operator)
     except ValueError:
         raise ValueError('ERROR: invalid argument for ', operator)
-    ## print('RESULT', result)
+    # print('RESULT', result)
     return result
 
 
