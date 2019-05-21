@@ -122,7 +122,6 @@ def brackets4exp(xprstr):
     return(xprstr)
 
 
-
 def preparse(xprstr):
     xprset = set(xprstr)
     operset.add(' ')
