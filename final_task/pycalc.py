@@ -66,7 +66,6 @@ def addfunc(module):
     return
 
 
-
 def brackets4minexp(xprstr):
     """ добавление в строку выражения скобок для возведение в степень типа pi^-pi >>> pi^(-pi) """
     right = len(xprstr)
@@ -83,7 +82,7 @@ def brackets4minexp(xprstr):
                 if data == ')':
                     brkt = brkt - 1
                 if brkt == 0 and data in ['+', '-', '*', '/']:
-                    j=j-1
+                    j = j - 1
                     break
                 if brkt == 0 and data == ')':
                     break
@@ -91,10 +90,9 @@ def brackets4minexp(xprstr):
     return(xprstr)
 
 
-
 def brackets4exp(xprstr):
     """ добавление в строку выражения скобок для возведение в степень типа 2^3^4 >>> 2^(3^4) """
-    right=len(xprstr)
+    right = len(xprstr)
     for i in range(xprstr.count('^')):  # столько знаков ^ в выражениии
         right = xprstr.rindex('^', 0, right)  # находим позицию самого правого знака ^
         if xprstr[:right].count('^') == 0:
@@ -113,7 +111,7 @@ def brackets4exp(xprstr):
                 if data == ')':
                     brkt = brkt - 1
                 if brkt == 0 and data in ['+', '-', '*', '/']:
-                    j=j-1
+                    j = j-1
                     break
                 if brkt == 0 and data == ')':
                     break
@@ -347,7 +345,7 @@ def main():
         parsecmd()  # парсинг аргументов командной строки xpr выражение и module модуль функции
         addfunc(module)  # попытка добавления внешней функции если указана -m module
         calc(xpr)  # калькулятор. вычисление выражения в строке xpr
-    #except OSError:
+    # except OSError:
     except Exception as error:
         print('ERROR:', error)
     return
